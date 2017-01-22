@@ -92,6 +92,6 @@ void loop() {
 
   // In my testing on a ESP-01, a delay of less than 1500 resulted 
   // in a crash and reboot after about 50 loop runs.
-  delay(1500);
+  delay(5*60*1000);
 }
 
